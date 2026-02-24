@@ -85,9 +85,8 @@ body {
   color: #2563eb;
 }
 
-/* ========================================
-   FOOTER
-======================================== */
+
+/* Footer */
 .footer {
   background-color: var(--bg-secondary);
   color: var(--text-primary);
@@ -99,10 +98,27 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .footer-text {
   text-align: center;
+}
+
+.footer-powered {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.footer-logo {
+  height: 50px;
+  width: auto;
 }
 
 /* ========================================
