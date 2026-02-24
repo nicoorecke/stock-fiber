@@ -12,7 +12,7 @@ export default function Header() {
     <header className="header">
       <nav className="header-nav">
         <Link href="/" className="header-logo">
-          Mi Tienda
+          Stock Fiber
         </Link>
         <div className="header-links">
           <Link href="/" className="header-link">

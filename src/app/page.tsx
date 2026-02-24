@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
       <div className="hero">
-        <h1>Bienvenido a Mi Tienda</h1>
+        <h1>Bienvenido a Stock Fiber</h1>
         <p>Los mejores productos al mejor precio</p>
         <Link href="/productos" className="btn-primary">
           Ver Productos
