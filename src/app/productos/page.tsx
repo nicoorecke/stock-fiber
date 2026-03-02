@@ -24,11 +24,11 @@ export default function ProductosPage() {
               className="producto-imagen"
             />
             <div className="producto-info">
-              <h2 className="producto-tipo">{producto.tipo}</h2>
-              <p className="producto-descripcion">{producto.descripcion}</p>
+              <h2 className="producto-tipo">{producto.fabricante}</h2>
+              <p className="producto-descripcion">{producto.modelo}</p>
               <p className="producto-precio">${producto.precio}</p>
-              <p className="producto-fabricante">{producto.fabricante}</p>
-              <p className="producto-modelo">{producto.modelo}</p>
+              <p className="producto-fabricante">{producto.descripcion}</p>
+              <p className="producto-modelo">{producto.tipo}</p>
               <button 
                 className="btn-agregar"
                 onClick={() => handleAgregar(producto)}

@@ -5,7 +5,7 @@ import { useCarrito } from '@/src/context/CarritoContext'
 import { useTheme } from '@/src/context/ThemeContext'
 
 export default function Header() {
-  const { cantidadTotal } = useCarrito()
+
   const { tema, toggleTema } = useTheme()
 
   return (
@@ -20,9 +20,6 @@ export default function Header() {
           </Link>
           <Link href="/productos" className="header-link">
             Productos
-          </Link>
-          <Link href="/carrito" className="header-link">
-            🛒 Carrito ({cantidadTotal})
           </Link>
           <button onClick={toggleTema} className="theme-toggle">
             {tema === 'light' ? '🌙' : '☀️'}

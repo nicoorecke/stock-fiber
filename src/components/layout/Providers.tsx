@@ -7,9 +7,9 @@ import { CarritoProvider } from '@/src/context/CarritoContext'
 export function Providers({ children }: { children: ReactNode }) {
   return (
     <ThemeProvider>
-      <CarritoProvider>
+
         {children}
-      </CarritoProvider>
+
     </ThemeProvider>
   )
 }

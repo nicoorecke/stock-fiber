@@ -2,6 +2,7 @@ import './globals.css'
 import Header from '@/src/components/layout/Header'
 import Footer from '@/src/components/layout/Footer'
 import { Providers } from '@/src/components/layout/Providers'
+import WhatsAppButton from '@/src/components/WhatsAppButton'
 
 export default function RootLayout({
   children,
@@ -18,6 +19,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </Providers>
+        <WhatsAppButton/> 
       </body>
     </html>
   )
