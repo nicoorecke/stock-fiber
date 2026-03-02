@@ -2,14 +2,11 @@
 
 import { ReactNode } from 'react'
 import { ThemeProvider } from '@/src/context/ThemeContext'
-import { CarritoProvider } from '@/src/context/CarritoContext'
 
 export function Providers({ children }: { children: ReactNode }) {
   return (
     <ThemeProvider>
-
         {children}
-
     </ThemeProvider>
   )
 }

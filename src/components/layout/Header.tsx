@@ -1,7 +1,5 @@
 'use client'
-
 import Link from 'next/link'
-import { useCarrito } from '@/src/context/CarritoContext'
 import { useTheme } from '@/src/context/ThemeContext'
 
 export default function Header() {
